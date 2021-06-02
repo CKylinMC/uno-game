@@ -132,7 +132,7 @@ const GameEndedModal: GameEndedModalType & React.FC<GameEndedModalProps> = (prop
 										variant="h2"
 										className={classes.description}
 									>
-										(You)
+										(你)
 									</Typography>
 								)}
 							</Grid>
@@ -153,7 +153,7 @@ const GameEndedModal: GameEndedModalType & React.FC<GameEndedModalProps> = (prop
 						disabled={loadingPlayAgain}
 						className={classes.playAgainButton}
 					>
-						{loadingPlayAgain ? "WAITING..." : "PLAY AGAIN"}
+						{loadingPlayAgain ? "等待中..." : "再来一局"}
 					</Button>
 
 					<Divider orientation="horizontal" size={1} />
@@ -163,7 +163,7 @@ const GameEndedModal: GameEndedModalType & React.FC<GameEndedModalProps> = (prop
 						onClick={handleQuit}
 						className={classes.quitButton}
 					>
-						QUIT
+						离开
 					</Button>
 				</Grid>
 			</Dialog>

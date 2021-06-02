@@ -123,7 +123,7 @@ const CardStack: React.FC<CardStackProps> = (props) => {
 							onClick={buyCard}
 							className={classes.buyCardButton}
 						>
-							BUY CARD
+							抽牌
 						</Button>
 					</Grid>
 				)}

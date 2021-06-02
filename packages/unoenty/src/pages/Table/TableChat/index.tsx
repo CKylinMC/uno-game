@@ -162,7 +162,7 @@ const Chat: React.FC = () => {
 					<Typography
 						variant="h6"
 					>
-						Chat
+						聊天
 					</Typography>
 				</Grid>
 

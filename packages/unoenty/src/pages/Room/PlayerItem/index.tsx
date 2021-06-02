@@ -77,7 +77,7 @@ const PlayerItem: React.FC<PlayerItem> = (props) => {
 								variant="h2"
 								className={classes.description}
 							>
-								(You)
+								(你)
 							</Typography>
 						)}
 					</Grid>
@@ -88,7 +88,7 @@ const PlayerItem: React.FC<PlayerItem> = (props) => {
 				variant="h2"
 				className={classes.statusText}
 			>
-				{ready ? "READY" : "UNREADY"}
+				{ready ? "准备好了" : "未准备好"}
 			</Typography>
 		</Grid>
 	)

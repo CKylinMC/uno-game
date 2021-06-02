@@ -45,7 +45,7 @@ const GameItem: React.FC<GameItemProps> = (props) => {
 				</Typography>
 
 				<Typography variant="caption">
-					{playersCount} {playersCount === 1 ? "PLAYER" : "PLAYERS"}
+					{playersCount} {playersCount === 1 ? "玩家" : "玩家"}
 				</Typography>
 			</Grid>
 
@@ -67,7 +67,7 @@ const GameItem: React.FC<GameItemProps> = (props) => {
 						backgroundColor: color,
 					}}
 				>
-					JOIN
+					加入
 				</Button>
 			</Grid>
 		</Grid>

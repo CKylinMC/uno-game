@@ -111,14 +111,14 @@ const GameCard: React.FC<GameCardProps> = (props) => {
 								variant="caption"
 								className={classes.infoText}
 							>
-								At least 2 players are needed to start a game.
+								至少需要两个玩家才能开始一局游戏
 							</Typography>
 
 							<Typography
 								variant="caption"
 								className={classes.infoText}
 							>
-								The game automatically starts when all players are ready.
+								所有玩家都准备好的时候游戏会自动开始
 							</Typography>
 						</Grid>
 					</Grid>
@@ -140,7 +140,7 @@ const GameCard: React.FC<GameCardProps> = (props) => {
 					}}
 				>
 					{mode === "info" ? (
-						linkCopied ? "COPIED!" : "COPY LINK"
+						linkCopied ? "已复制!" : "复制房间链接"
 					) : (
 						buttonText
 					)}
@@ -151,7 +151,7 @@ const GameCard: React.FC<GameCardProps> = (props) => {
 						variant="h2"
 						className={classes.remainingSlotText}
 					>
-						{remainingSlots} {remainingSlots === 1 ? "SLOT" : "SLOTS"} LEFT
+						剩余 {remainingSlots} {remainingSlots === 1 ? "空位" : "空位"} 
 					</Typography>
 
 					<Divider orientation="horizontal" size={1} />

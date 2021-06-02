@@ -91,7 +91,7 @@ const Dashboard: React.FC = () => {
 						variant="h1"
 						color="textSecondary"
 					>
-						Games
+						大厅
 					</Typography>
 
 					{DeviceUtil.isMobile ? (

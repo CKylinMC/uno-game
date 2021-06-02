@@ -56,8 +56,8 @@ const Menu: React.FC = () => {
 
 	const handleLogout = () => {
 		PopConfirm.open({
-			title: "Logout",
-			message: "Are you sure you want to logout?",
+			title: "登出",
+			message: "你确定要登出吗？",
 			onConfirm: () => {
 				Auth.logout()
 			},
@@ -161,7 +161,7 @@ const Menu: React.FC = () => {
 							variant="h2"
 							className={classes.menuTitle}
 						>
-							PAGES
+							列表
 						</Typography>
 
 						<Divider orientation="horizontal" size={1} />
@@ -190,7 +190,7 @@ const Menu: React.FC = () => {
 							variant="h2"
 							className={classes.menuTitle}
 						>
-							LAST GAMES
+							最近游戏
 						</Typography>
 
 						<Divider orientation="horizontal" size={1} />
@@ -226,7 +226,7 @@ const Menu: React.FC = () => {
 							className={classes.logoutButton}
 							onClick={handleLogout}
 						>
-							LOGOUT
+							登出
 						</Button>
 
 						<Divider orientation="horizontal" size={1} />

@@ -340,7 +340,7 @@ const CardDeck: React.FC<CardDeckProps> = (props) => {
 								variant="h2"
 								className={classes.description}
 							>
-								(You)
+								(你)
 							</Typography>
 						)}
 					</Grid>
